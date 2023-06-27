@@ -1,0 +1,12 @@
+# Test to be run with --maxconn of 1
+1 open
+# Open a second client connection and send request - no response expected
+# until first client disconects
+2 open
+2 send crypt chicken aa
+2 readtimeout
+1 send crypt chicken zz
+1 read
+2 readtimeout
+1 close
+2 read

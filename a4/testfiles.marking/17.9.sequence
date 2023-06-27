@@ -1,0 +1,11 @@
+1 open
+2 open
+# 2 dual-threaded client requests in parallel
+1 send crack aaaaaaaaaaaaa 2\ncrack ccccccccccccc 2
+2 send crack bbbbbbbdddddd 2
+1 read
+2 read
+1 read
+2 close
+1 close
+sighup

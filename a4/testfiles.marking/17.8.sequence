@@ -1,0 +1,12 @@
+1 open
+2 open
+# 2 single-threaded client requests in parallel
+1 send crack aaaaaaaaaaaaa 1
+2 send crack bbbbbbbbbbbbb 1
+1 read
+2 read
+sighup
+2 close
+1 send crypt chicken ck
+sighup
+1 close

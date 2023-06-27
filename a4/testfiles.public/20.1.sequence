@@ -1,0 +1,7 @@
+1 openhttp
+# Note in sending HTTP requests - last \n is supplied by the test script
+1 send GET /stats HTTP/1.1\r\n\r
+2 send crypt request ht
+1 send GET /stats HTTP/1.1\r\n\r
+2 close
+1 close

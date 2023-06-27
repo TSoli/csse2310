@@ -1,0 +1,9 @@
+# crypt requests intermixed from two clients
+1 send crypt chicken aa
+2 send crypt rooster bb
+# Read ensures timeout fail if no data returned to second client
+2 read
+1 send crypt rooster aa
+2 send crypt chicken bb
+1 send crypt farmyard cc
+2 send crypt farmyard dd

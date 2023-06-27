@@ -1,0 +1,20 @@
+1 open
+2 open
+3 open
+# Multiple crack requests with multiple threads from multiple clients
+1 send crack aaaaaaaaaaaaa 7\ncrack bbbbbbbbbbbbb 12\ncrack ccccccccccccc 2
+2 send crack ddddddddddddd 6\ncrack eeeeeeeeeeeee 9\ncrack zzBJXWJBbg9dQ 1
+3 send crack zzBJXWJBbg9dQ 1\ncrack fffffffffffff 5
+# Read all the results
+1 read
+2 read
+1 read
+2 read
+1 read
+3 read
+2 read
+3 read
+1 close
+2 close
+3 close
+sighup

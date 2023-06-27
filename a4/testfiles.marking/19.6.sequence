@@ -1,0 +1,7 @@
+1 openhttp
+2 send crypt testfile aa
+2 read
+3 send crack abwheGV4oyAfU 1
+3 read
+1 send GET /stats HTTP/1.1\r\nIgnore: this header\r\nAnd: Ignore this one\r\n\r
+1 close

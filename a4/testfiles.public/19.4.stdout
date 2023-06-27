@@ -1,0 +1,17 @@
+Output from client 1 is:
+------------------------
+aardvark
+------------------------
+Output from client 2 is:
+------------------------
+HTTP/1.1 200 OK
+Content-Length: 160
+
+Connected clients: 1
+Completed clients: 0
+Crack requests: 1
+Failed crack requests: 0
+Successful crack requests: 1
+Crypt requests: 0
+crypt()/crypt_r() calls: 91
+------------------------

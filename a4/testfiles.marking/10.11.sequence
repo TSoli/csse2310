@@ -1,0 +1,15 @@
+# We send one request in multiple packets and two requests (lines) in one packet
+1 send crack a7s90yssy0Iz. 1
+1 read
+1 send crack 23JkGDGZvGtho 1
+1 read
+1 close
+2 send crack z7s/qlULl5Fuw 1
+2 read
+2 sendnonewline crack uqeAnWXy
+2 send llEgI 1
+2 read
+2 send crack 72I4JvfVmi6QM 1\ncrack 10EnivNEfA4Rw 1
+2 read
+2 read
+2 close

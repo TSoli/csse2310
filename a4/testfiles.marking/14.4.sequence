@@ -1,0 +1,13 @@
+# Use with large dictionary (cracking kkkkk)
+1 send crack crack 23823xdEtoj36 3\ncrack 23823xdEtoj36 3\ncrack 23823xdEtoj36 3\ncrack 23823xdEtoj36 3\n
+1 close
+2 send crypt chicken 67
+2 read
+# This should be long enough for the server to finish the crack requests
+sleep 15
+3 send crypt chicken 68
+sleep 10
+2 send crypt chicken 60
+sleep 10
+3 send crypt chicken 68
+2 close

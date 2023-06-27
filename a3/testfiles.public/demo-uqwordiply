@@ -1,0 +1,6 @@
+#!/bin/sh
+(echo "$(date +%H:%M:%S.%N) Starting $0" >&999) 2>/dev/null
+/local/courses/csse2310/bin/demo-uqwordiply "$@"
+status=$?
+(echo "$(date +%H:%M:%S.%N) Finishing $0" >&999) 2>/dev/null
+exit $status

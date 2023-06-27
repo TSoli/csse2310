@@ -1,0 +1,9 @@
+Starting job 1
+Starting job 2
+Job 1: Stdout matches
+Job 1: Stderr matches
+Job 1: Exit status matches
+Job 2: Stdout matches
+Job 2: Stderr matches
+Job 2: Exit status matches
+testuqwordiply: 2 out of 2 tests passed

@@ -1,0 +1,54 @@
+#!/bin/sh
+# Wrapper around uqcmp
+args="${*@Q}"
+(echo "$(/usr/bin/date +%H:%M:%S.%N) Starting $0 ${args}" >&999) 2>/dev/null
+
+PATH=${PATH}:/bin:/usr/bin
+
+if [[ "$1" =~ .*stderr ]] ; then
+    name=stderr
+    /usr/bin/sleep 0.35 ;
+elif [[ "$1" =~ .*stdout ]] ; then
+    name=stdout
+else
+    name=unknown
+fi
+
+if [ "${UQCMP_LOG}" ] ; then
+    if [ "${UQCMP_DONT_LOG_ARGS}" ] ; then
+	echo uqcmp >> ${UQCMP_LOG}
+    else
+	echo uqcmp "$@" >> ${UQCMP_LOG}
+    fi
+fi
+
+# Possibly log open file descriptors
+if [ "${UQCMP_LOG_FDS}" ] ; then
+    /usr/bin/lsof -a -p $$ -d 3-63 -E -O -F atcn | \
+	/usr/bin/awk '
+/^f/ {fd=substr($0,2);}
+/^a/ {mode=substr($0,2);}
+/^npipe/ {
+    printf("%d %c pipe\n", fd, mode);
+    next
+}
+/^n/ {
+    name=substr($0,2);
+    # Strip off any parenthesised part at the end 
+    gsub(" \\(.*$", "", name);
+    # Work out the basename - unless name begins with /dev,/tmp or /etc
+    if(!match(name,"^/(dev|tmp|etc)/")) { 
+	gsub("^.*/","",name);
+    }
+    printf("%d%c %s\n", fd, mode, name);
+}' > /tmp/uqcmp.${name}
+fi
+if [ "${UQCMP_SILENT}" ] ; then
+    /local/courses/csse2310/bin/uqcmp "$@" > /dev/null 2>/dev/null
+    status=$?
+else 
+    /local/courses/csse2310/bin/uqcmp "$@"
+    status=$?
+fi
+(echo "$(/usr/bin/date +%H:%M:%S.%N) Finishing $0 ${args} (exit status $status)" >&999) 2>/dev/null
+exit $status

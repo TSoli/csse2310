@@ -1,0 +1,25 @@
+Output from client 1 is:
+------------------------
+alphas
+------------------------
+Output from client 2 is:
+------------------------
+------------------------
+Output from client 3 is:
+------------------------
+Got expected timeout waiting for line from server
+03JNLIUQ4h4DU
+------------------------
+Output from client 4 is:
+------------------------
+Got expected timeout waiting for line from server
+Got expected timeout waiting for line from server
+alphas
+------------------------
+Output from client 5 is:
+------------------------
+Got expected timeout waiting for line from server
+Got expected timeout waiting for line from server
+Got expected timeout waiting for line from server
+05LIpDhAp1q8.
+------------------------

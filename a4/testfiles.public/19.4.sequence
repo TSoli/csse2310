@@ -1,0 +1,6 @@
+1 send crack abwheGV4oyAfU 1
+1 read
+2 openhttp
+2 send GET /stats HTTP/1.1\r\n\r
+2 close
+1 close

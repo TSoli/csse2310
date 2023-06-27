@@ -1,0 +1,21 @@
+# mixture of crypt and crack requests from multiple clients with alternate 
+# dictionary (1 thread each for crack requests)
+1 open
+2 open
+3 open
+1 send crypt moss 00
+2 send crack zycuZKUeXuqMo 1
+3 send crack zzdNIV2xZ8cvE 1
+3 send crypt lichen 01
+2 send crack zzdNIV2xZ8cvE 1
+1 read
+1 close
+4 open
+4 send crack zzdNIV2xZ8cvE 1
+2 send crypt cover 02
+4 read
+3 read
+3 read
+2 read
+2 read
+2 read

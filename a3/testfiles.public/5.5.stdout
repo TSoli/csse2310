@@ -1,0 +1,7 @@
+Starting job 1
+Job 1 stdout: OK
+Job 1 stderr: OK
+Job 1: Stdout matches
+Job 1: Stderr matches
+Job 1: Exit status differs
+testuqwordiply: 0 out of 1 tests passed

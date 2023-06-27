@@ -1,0 +1,10 @@
+1 open
+# Send two invalid and one valid crypt requests
+1 send crypt chicken %%
+1 send crypt hello
+1 send crypt chicken uq
+1 read
+1 read
+1 read
+sighup
+1 close

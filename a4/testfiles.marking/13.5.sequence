@@ -1,0 +1,15 @@
+# multiple simultaneous clients - multiple threads per crack request
+1 send crack aaaaaaaaaaaaa 2
+2 send crack bbbbbbbbbbbbb 3\ncrypt crypt 23
+3 send crack ccccdefghijkl 4\ncrack vvwtPY3paEdSE 4
+4 send crack ddddddddddddd 5
+2 read
+3 read
+2 read
+3 send crypt chicken cc
+4 send crack vvwtPY3paEdSE 6
+4 read
+3 read
+3 read
+1 read
+4 read

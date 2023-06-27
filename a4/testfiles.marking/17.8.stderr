@@ -1,0 +1,14 @@
+Connected clients: 2
+Completed clients: 0
+Crack requests: 2
+Failed crack requests: 2
+Successful crack requests: 0
+Crypt requests: 0
+crypt()/crypt_r() calls: 407668
+Connected clients: 1
+Completed clients: 1
+Crack requests: 2
+Failed crack requests: 2
+Successful crack requests: 0
+Crypt requests: 1
+crypt()/crypt_r() calls: 407669

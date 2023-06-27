@@ -1,0 +1,14 @@
+1 openhttp
+2 send crypt test ts
+3 openhttp
+3 send GET /stats HTTP/1.1\r\nContent-Length: 10\r\n\r\n123456789
+4 send crypt testing ts
+4 read
+1 send GET /stats HTTP/1.1\r\n\r
+3 send GET /stats HTTP/1.1\r\nContent-Length: 10\r\n\r\n123456789
+5 send crack abwheGV4oyAfU 1
+5 read
+3 send GET /stats HTTP/1.1\r\nContent-Length: 10\r\n\r\n123456789
+1 send GET /stats HTTP/1.1\r\n\r
+1 close
+3 close

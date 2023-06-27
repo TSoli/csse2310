@@ -1,0 +1,7 @@
+Text received by server is:
+crypt csse2310 uq
+ any-old command - should be sent
+crack uqeAnWXyllEgI 1
+ # comment character in col 2 - line should be sent
+crypt csse7231 au
+another line that should be sent

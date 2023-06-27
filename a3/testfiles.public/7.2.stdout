@@ -1,0 +1,13 @@
+Starting job 1
+Starting job 2
+Starting job 3
+Job 1: Stdout matches
+Job 1: Stderr matches
+Job 1: Exit status differs
+Job 2: Stdout matches
+Job 2: Stderr matches
+Job 2: Exit status differs
+Job 3: Stdout matches
+Job 3: Stderr matches
+Job 3: Exit status differs
+testuqwordiply: 0 out of 3 tests passed

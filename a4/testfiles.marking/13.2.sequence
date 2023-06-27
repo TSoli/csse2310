@@ -1,0 +1,7 @@
+# crack requests from two simultaneous clients
+1 open
+2 open
+1 send crack aa12345678901 1
+2 send crack zycuZKUeXuqMo 1
+2 read
+1 read

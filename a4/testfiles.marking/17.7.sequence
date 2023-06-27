@@ -1,0 +1,12 @@
+1 open
+2 open
+# Send several invalid crack requests (from two clients)
+1 send crack
+2 send crack asdfasdf 1
+2 send crack asdfasdfasdfa
+1 send crack asdfasdfasdfa 60
+2 send crack %%asdfasfffff 1
+1 close
+sighup
+2 close
+sighup

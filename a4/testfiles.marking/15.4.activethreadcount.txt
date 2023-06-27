@@ -1,0 +1,16 @@
+Thread counts reported before each request line. (0 assumed before any clients created.)
+Line 2: 0
+Line 3: 1
+Line 4: 2
+Line 5: 2
+Line 6: 2
+Line 8: 2
+Line 9: 2
+Line 10: 2
+Line 11: 2
+Line 17: 2
+Line 22: 2
+Line 25: 2
+Line 27: 2
+Line 28: 1
+End: 0

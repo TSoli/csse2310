@@ -1,0 +1,5 @@
+1 send crypt display ab
+1 read
+1 close
+sighup
+sleep 1

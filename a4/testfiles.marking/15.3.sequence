@@ -1,0 +1,29 @@
+# Test to be run with --maxconn of 1. Try multiple clients connecting
+1 open
+2 open
+3 open
+4 open
+5 open
+1 send crypt chicken 01
+2 send crypt chicken 02
+3 send crypt chicken 03
+4 send crypt chicken 04
+5 send crypt chicken 05
+2 readtimeout
+3 readtimeout
+4 readtimeout
+5 readtimeout
+1 read
+# Close client that hasn't had a response yet
+3 close
+# Close 1 - should now get a response from 2, but not 4 or 5
+1 close
+4 readtimeout
+5 readtimeout
+2 read
+2 close
+5 readtimeout
+4 read
+4 close
+5 read
+5 close

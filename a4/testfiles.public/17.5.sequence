@@ -1,0 +1,11 @@
+1 open
+sighup
+2 open
+1 send crack aardvark././. 1
+1 read
+2 send crack abwheGV4oyAfU 1
+2 read
+1 send crypt chicken a4
+1 close
+sighup
+2 close

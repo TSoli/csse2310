@@ -1,0 +1,35 @@
+Output from client 1 is:
+------------------------
+------------------------
+Output from client 2 is:
+------------------------
+tsb.E0mtUsvcc
+------------------------
+Output from client 3 is:
+------------------------
+:invalid
+:invalid
+:invalid
+:invalid
+------------------------
+Output from client 4 is:
+------------------------
+tshddlPpbGNbc
+------------------------
+Output from client 5 is:
+------------------------
+HTTP/1.1 200 OK
+Content-Length: 160
+
+Connected clients: 3
+Completed clients: 1
+Crack requests: 1
+Failed crack requests: 0
+Successful crack requests: 1
+Crypt requests: 2
+crypt()/crypt_r() calls: 93
+------------------------
+Output from client 6 is:
+------------------------
+aardvark
+------------------------

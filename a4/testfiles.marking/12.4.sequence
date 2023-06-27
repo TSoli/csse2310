@@ -1,0 +1,15 @@
+1 send crypt calendar 23
+1 send crypt wordiply 50
+1 close
+2 send crypt abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz 12
+2 close
+3 send crypt calendar 45
+3 send crypt calendar 46
+3 send crypt calendar 47
+3 send crypt calendar 48
+3 send crypt calendar 49
+3 send crypt calendar 4a
+3 send crypt calendar 4b
+3 send crypt calendar 4c
+3 send crypt calendar 4d
+3 close

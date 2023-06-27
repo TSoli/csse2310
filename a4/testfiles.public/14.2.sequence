@@ -1,0 +1,5 @@
+1 send crypt aardvark aa
+1 send crack abdfCTZnrNYh2 1
+# Hopefully 2 seconds is enough for this request to finish
+sleep 2
+1 close

@@ -1,0 +1,4 @@
+.zip
+.svn
+# test file symlinks
+**/testfiles

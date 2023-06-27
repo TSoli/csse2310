@@ -1,0 +1,1 @@
+Usage: wordle [-len word-length] [-max max-guesses] [dictionary]

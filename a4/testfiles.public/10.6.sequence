@@ -1,0 +1,10 @@
+# Word found in dictionary (Use default dictionary)
+1 send crack a7s90yssy0Iz. 1
+1 read
+# Word not found in dictionary
+1 send crack z7s/qlULl5Fuw 1
+1 read
+# Word found in dictionary
+1 send crack nhIrIUtAXLlXs 1
+1 read
+1 close

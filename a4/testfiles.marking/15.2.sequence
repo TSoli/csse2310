@@ -1,0 +1,20 @@
+# Test to be run with --maxconn of 2
+1 open
+2 open
+3 open
+# No response expected to the following command
+3 send crypt chicken ab
+3 readtimeout
+# Make sure clients 1 and 2 respond
+1 send crack ty.Y6CGCCw.Lw 1
+2 send crack 65d3CSLWC.Bsc 1
+2 read
+1 read
+# Still no response expected for client 3
+3 readtimeout
+# Send another request to client 1
+1 send crypt chicken zz
+1 read
+2 close
+# Should now get response for client 3
+3 read

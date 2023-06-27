@@ -1,0 +1,13 @@
+Output from client 1 is:
+------------------------
+HTTP/1.1 200 OK
+Content-Length: 159
+
+Connected clients: 0
+Completed clients: 0
+Crack requests: 0
+Failed crack requests: 0
+Successful crack requests: 0
+Crypt requests: 0
+crypt()/crypt_r() calls: 0
+------------------------

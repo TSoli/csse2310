@@ -1,0 +1,31 @@
+Output from client 1 is:
+------------------------
+HTTP/1.1 200 OK
+Content-Length: 159
+
+Connected clients: 0
+Completed clients: 0
+Crack requests: 0
+Failed crack requests: 0
+Successful crack requests: 0
+Crypt requests: 0
+crypt()/crypt_r() calls: 0
+------------------------
+Output from client 2 is:
+------------------------
+htdMtZT3LZwWY
+:failed
+------------------------
+Output from client 3 is:
+------------------------
+HTTP/1.1 200 OK
+Content-Length: 164
+
+Connected clients: 1
+Completed clients: 0
+Crack requests: 1
+Failed crack requests: 1
+Successful crack requests: 0
+Crypt requests: 1
+crypt()/crypt_r() calls: 203835
+------------------------

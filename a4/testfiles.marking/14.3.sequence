@@ -1,0 +1,12 @@
+1 send crypt price lo
+2 send crack zzztng1yMO7k2 1
+1 send crack 331atGWLRWaCs 2
+1 read
+2 close
+1 send crack zzztng1yMO7k2 2
+3 send crack samblj630VPj. 1
+1 read
+3 read
+1 close
+3 send crypt sequence uq
+3 read

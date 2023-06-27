@@ -1,0 +1,24 @@
+# Word found in dictionary (program). (Use common-words dictionary)
+1 send crack a7s90yssy0Iz. 2
+1 read
+1 close
+# Word not found in dictionary (asdfa875)
+2 send crack z7s/qlULl5Fuw 3
+2 read
+# Word found in dictionary (network)
+2 send crack tylbVkIgbR.2c 4
+2 read
+2 close
+# Word found in dictionary (client)
+3 send crack cl9LnqPxYD3L6 5
+3 read
+# Word not found in dictionary
+3 send crack cl9LnqPxYD3L7 6
+3 read
+# Word found in dictionary
+3 send crack svN9cu.ych.t2 17
+3 read
+# Word not found in common-words dictionary
+3 send crack clSpnxT.rwPA. 19
+3 read
+3 close

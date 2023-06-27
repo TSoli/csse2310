@@ -1,0 +1,16 @@
+# Test with oneword.dictionary (only the second word from client 1 is found)
+1 send crack a7s90yssy0Iz. 2
+1 read
+1 send crack 23JkGDGZvGtho 3
+1 read
+1 close
+2 send crack z7s/qlULl5Fuw 4
+2 read
+2 send crack tylbVkIgbR.2c 5
+2 read
+2 close
+3 send crack cl9LnqPxYD3L6 7
+3 read
+3 send crack cl9LnqPxYD3L7 6
+3 read
+3 close
